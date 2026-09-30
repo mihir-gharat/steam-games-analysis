@@ -17,6 +17,25 @@ The analysis uses Python to explore the dataset, assess data quality, visualize 
 - Compare the popularity of free and paid games
 - Generate meaningful insights through data visualization
 
+
+## 📊 Dataset
+
+The dataset contains information about Steam games, including game details, pricing, reviews, developers, publishers, tags, and system requirements.
+
+### Dataset Download
+
+The dataset is hosted on Google Drive because the CSV file exceeds GitHub's browser upload limit.
+
+**[Download Steam Games Dataset](https://drive.google.com/file/d/1xR_p7zZ3K7qxkolE16Ajs1hEiG1zn7yj/view?usp=sharing)**
+
+After downloading the dataset, place `SteamGames_cleaned.csv` inside the `Data` folder of this project.
+
+The notebook loads the dataset using:
+
+steam = pd.read_csv("Data/SteamGames_cleaned.csv")
+
+
+
 ## 🛠️ Tools & Technologies
 
 - Python
